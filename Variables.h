@@ -1,0 +1,5 @@
+// What a great filename!
+#define SCREEN_SIZE 800
+#define GRAPH_SIZE 200
+#define GRAPHLIMIT GRAPH_SIZE * GRAPH_SIZE
+#define PIXEL_SIZE SCREEN_SIZE / GRAPH_SIZE
