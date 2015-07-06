@@ -11,8 +11,3 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
-
-// STUPID, STUPID COMPILER!
-/*#ifdef _WIN32
-#undef main
-#endif*/
