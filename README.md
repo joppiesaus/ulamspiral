@@ -1,5 +1,5 @@
 ### Cloning
-```git clone https://github.com/joppiesaus/ulamspiral.git```
+`git clone https://github.com/joppiesaus/ulamspiral.git`
 
 ### Dependencies
 * [SDL2](https://www.libsdl.org/) (deb: `libsdl2-2.0-0 libsdl2-dev`)
@@ -8,20 +8,22 @@
 Windows(VS): Dependencies included in the `windows` branch.
 
 Right now developing for windows(TODO: fix this, sln file won't be updated!):
-```git checkout windows
+```
+git checkout windows
 git checkout master
 # some change made
 git add foo.bar
 git commit -m "blah blah"
 git checkout windows
 git merge master
-git checkout master```
+git checkout master
+```
 
 Linux(Debian): Install dependencies by typing `sudo apt-get install <deps>`. Code::Blocks project included.
 
 ### Installing/Compiling
 Linux(debug):
-```g++ <all files here> -o ulamspiral -lSDL2 -lGL -lGLEW -lm -std=c++11 -I/usr/include -L/usr/lib/x86_64-linux-gnu```
+`g++ <all files here> -o ulamspiral -lSDL2 -lGL -lGLEW -lm -std=c++11 -I/usr/include -L/usr/lib/x86_64-linux-gnu`
 Directories may be different on your system.
 Add -O3 for a release build.
 Can someone teach me to not do `<all files here>`? Makefiles? Help?!
