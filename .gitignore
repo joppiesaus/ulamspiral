@@ -1,3 +1,14 @@
 bin/*
 obj/*
+Debug/*
+!Debug/glew32.dll
+!Debug/SDL2.dll
+Release/*
+!Release/glew32.dll
+!Release/SDL2.dll
+*.suo
+*.sdf
 *.depend
+*.vcxproj.filters
+*.vcxproj.user
+*.opensdf

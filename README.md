@@ -13,7 +13,7 @@ Linux(debug):
 ```g++ <all files here> -o ulamspiral -lSDL2 -lGL -lGLEW -lm -std=c++11 -I/usr/include -L/usr/lib/x86_64-linux-gnu```
 Directories may be different on your system.
 Add -O3 for a release build.
-Can someone teach me to not do <all files here>? Makefiles? Help?!
+Can someone teach me to not do `<all files here>`? Makefiles? Help?!
 
 ### Running
 (Should be pretty obvious)
