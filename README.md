@@ -5,8 +5,19 @@
 * [SDL2](https://www.libsdl.org/) (deb: `libsdl2-2.0-0 libsdl2-dev`)
 * [GLEW](http://glew.sourceforge.net/) (deb: `libglew1.10 libglew-dev`)
 
-Windows: Just install them :trollface: (by downloading them from the page and managing them with your IDE)
-Linux(Debian): Install dependencies by typing `sudo apt-get install <deps>`
+Windows(VS): Dependencies included in the `windows` branch.
+
+Right now developing for windows(TODO: fix this, sln file won't be updated!):
+```git checkout windows
+git checkout master
+# some change made
+git add foo.bar
+git commit -m "blah blah"
+git checkout windows
+git merge master
+git checkout master```
+
+Linux(Debian): Install dependencies by typing `sudo apt-get install <deps>`. Code::Blocks project included.
 
 ### Installing/Compiling
 Linux(debug):
@@ -35,6 +46,8 @@ I spent half a day trying to figure out how it worked, I couldn't get it working
 Just fork & pull request!
 
 ### TODO
+* Fix git repo: make windows files independent from master
+* Cleanup
 * Everything todo with the draw code sucks.
 * Make the window resizable.
 
